@@ -1,0 +1,23 @@
+.customInput input {
+    padding: 10px 10px !important;
+}
+  .customInput label{
+    top: 3px !important;
+}
+.stickyTable {
+    height: 600px;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.stickyTable table thead {
+    position:sticky;
+    top: 0;
+}
+
+
+  @media (max-width:844px){
+    .customInput{
+        width: 100%;
+    }
+  }
